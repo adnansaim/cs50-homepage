@@ -1,0 +1,33 @@
+/* footer */
+
+footer{
+    background-color: black;
+    color:white;
+    padding: 3rem;
+  }
+  .footer-data{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+  .footer-data ul{
+    padding: 0;
+  }
+  
+  .footer-data ul li{
+    list-style:none;
+    padding: .5rem 0;
+  }
+  .footer-data ul li a{
+    color: white;
+    text-decoration: none;
+  }
+  .footer-data ul li a:hover{
+    text-decoration: underline;
+  }
+  
+  @media (max-width:768px){
+    .footer-data{
+      flex-direction: column;
+    }
+  }
